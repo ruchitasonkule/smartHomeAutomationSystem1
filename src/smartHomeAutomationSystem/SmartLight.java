@@ -1,6 +1,5 @@
 package smartHomeAutomationSystem;
 
-
 public class SmartLight extends AbstractSmartDevice implements ISmartLight {
     private int brightness;
     private String color;
@@ -33,4 +32,7 @@ public class SmartLight extends AbstractSmartDevice implements ISmartLight {
         System.out.println("SmartLight color set to " + color);
     }
 }
+
+
+
 
